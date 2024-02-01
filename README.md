@@ -1,5 +1,8 @@
 # Funnel-Analysis
 
+## Table of contents
+-[Project Overview](#project-overview)
+
 ### Project Overview
 
 This data analysis project aims to analyze the customer funnel of Metrocar, a ride - sharing app (similar to Uber/Lift), to understand key drop-off points at various stages of the user journey and to identify areas for improvment and optimization. 
@@ -13,7 +16,9 @@ This data analysis project aims to analyze the customer funnel of Metrocar, a ri
 MainURL:postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766-pooler.us-east-2.aws.neon.tech/Metrocar
 
 ### Database Schema
+
 ![Picture1](https://github.com/Mahlet-Sisay/Funnel-Analysis/assets/137247807/5fa1e524-48d3-494b-99f2-1db6e9a1036c)
+Note: dbdiagram is used to visualize this database schema
 
 ### Key Business Questions 
 The funnel analysis and recommendations were made based on the following 5 key business questions:
