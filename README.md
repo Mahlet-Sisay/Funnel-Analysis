@@ -7,12 +7,11 @@
 - [Database Schema](#database-schema)
 - [Key Business Questions](#key-business-questions)
 - [Data Analysis](#data-analysis)
+- [Tableau Visualization Results](#tableau-visualization-results)
+- [Result and Findings](#result-and-findings)
+- [Recommendation](#recommendation)
 - [Project Presentation](#project-presentation)
   
-
-
-
-
 ### Project Overview
 
 This data analysis project aims to analyze the customer funnel of Metrocar, a ride - sharing app (similar to Uber/Lift), to understand key drop-off points at various stages of the user journey and to identify areas for improvment and optimization. 
@@ -32,11 +31,11 @@ Note: dbdiagram is used to visualize this database schema
 
 ### Key Business Questions 
 The funnel analysis and recommendations were made based on the following 5 key business questions:
-1.	What steps of the funnel should we research and improve? Are there any specific drop-off points preventing users from completing their first ride? 
-2.	What part of our funnel has the lowest conversion rate? What can we do to improve this part of the funnel?
-3.	Metrocar currently supports 3 different platforms: ios, android, and web. To recommend where to focus our marketing budget for the upcoming year, what insights can we make based on the platform?
-4.	What age groups perform best at each stage of our funnel? Which age group(s) likely contain our target customers?
-5.	Surge pricing is the practice of increasing the price of goods or services when there is the greatest demand for them. If we want to adopt a price-surging strategy, what does the distribution of ride requests look like throughout the day?
+1. What steps of the funnel should we research and improve? Are there any specific drop-off points preventing users from completing their first ride? 
+2. Metrocar currently supports 3 different platforms: ios, android, and web. To recommend where to focus our marketing budget for the upcoming year, what insights can we make based on the platform?
+3. What age groups perform best at each stage of our funnel? Which age group(s) likely contain our target customers?
+4. Surge pricing is the practice of increasing the price of goods or services when there is the greatest demand for them. If we want to adopt a price-surging strategy, what does the distribution of ride requests look like throughout the day?
+5. What part of our funnel has the lowest conversion rate? What can we do to improve this part of the funnel?
 
 ### Data Analysis 
 SQL query results
@@ -272,6 +271,36 @@ ORDER BY step,name, platform, age_range, download_dt,
       users_count,
       ride_counts;
 ```
+### Tableau Visualization Results
+1. User level funnel
+- [Download here](https://public.tableau.com/authoring/metrocar_userlevelgranularity/Sheet1#1)
+2. Ride level funnel
+- [Download here](https://public.tableau.com/authoring/Metrocarfunnel_ridelevelgranularity/Sheet12#1)
+3. Platform
+- [Download here](https://public.tableau.com/authoring/metrocarsfunnelsummary/Agegroupbasedinsight2/Platform%20based%20insight#1)
+4. Age range
+- [Download here](https://public.tableau.com/authoring/metrocarsfunnelsummary/Agegroupbasedinsight2/Age%20group%20based%20insight#1)
+5. Hourly distribution
+- [Download here](https://public.tableau.com/authoring/metrocarsfunnelsummary/Hourlyriderequestdistribution#1)
+
+### Result and Findings
+User Funnel Drop-off Points:
+- Ride Accepted to Ride Completed: Approximately 50% of users who had their rides accepted did not complete those rides. 
+- Signup to Ride Requested: Among the 17,623 users who completed the sign-up process, only roughly 70.40% of them proceeded to request a ride. Further analysis, such as A/B testing, is recommended to understand and improve this transition.
+- Download to Signup: There is an approximate 25% decline in the number of users who download the app compared to those who complete the sign-up process.
+
+Ride Funnel Drop-off Point:
+
+- Ride Requested to Ride Accepted: Out of a total of 385,477 ride requests, only around 65% of these requests were accepted by drivers.
+
+Additional Insights:
+
+- Platform Usage: IOS users generated majority of ride requests, constituting approximately 60% of all requests.
+- Target Audience: The primary customer base for Metrocar falls within the age range of 35 to 44, followed by the 25-34 age group.
+- Peak Hour Strategy: Detailed analysis of ride request distribution throughout the day highlights high demand during specific time slots, such as mornings (8AM - 10AM), afternoons (4PM - 6PM), and early evenings (6PM - 8PM). This suggests the potential effectiveness of implementing a price surging strategy during peak hours.
+
+### Recommendation
+Metrocar's funnel analysis offers valuable insights into user behavior and ride dynamics, emphasizing critical areas for improvement and optimization. Addressing these drop-off points and catering to peak-hour demand could enhance service efficiency and customer satisfaction.
 
 ### Project Presentation
 
