@@ -277,7 +277,7 @@ ORDER BY step,name, platform, age_range, download_dt,
 2. Ride level funnel
 - [Download here](https://public.tableau.com/authoring/Metrocarfunnel_ridelevelgranularity/Sheet12#1)
 3. Platform
-- [Download here](https://public.tableau.com/authoring/metrocarsfunnelsummary/Agegroupbasedinsight2/Platform%20based%20insight#1)
+- [Download here](https://public.tableau.com/authoring/metrocarsfunnelsummary/Agegroupbasedinsight2#1)
 4. Age range
 - [Download here](
 5. Hourly distribution
