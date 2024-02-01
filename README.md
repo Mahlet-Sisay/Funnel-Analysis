@@ -5,7 +5,7 @@
 - [Tools](#tools)
 - [Data Sources](#data-sources)
 - [Database Schema](#database-schema)
-- [Key Business Questions](#key-business-questions)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
 - [Tableau Visualization Results](#tableau-visualization-results)
 - [Result and Findings](#result-and-findings)
@@ -29,7 +29,7 @@ postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766-pooler.us-east-2.aws.neon.te
 ![Picture1](https://github.com/Mahlet-Sisay/Funnel-Analysis/assets/137247807/5fa1e524-48d3-494b-99f2-1db6e9a1036c)
 Note: dbdiagram is used to visualize this database schema
 
-### Key Business Questions 
+### Exploratory Data Analysis 
 The funnel analysis and recommendations were made based on the following 5 key business questions:
 1. What steps of the funnel should we research and improve? Are there any specific drop-off points preventing users from completing their first ride? 
 2. Metrocar currently supports 3 different platforms: ios, android, and web. To recommend where to focus our marketing budget for the upcoming year, what insights can we make based on the platform?
